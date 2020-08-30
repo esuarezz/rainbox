@@ -3,6 +3,9 @@ import { Text, View } from 'react-native'
 
 import { BaseButton, Container, RainbowContainer } from './styles'
 
+import {getRainbowColors} from '../../services/rainbow/getRainbowColors'
+
+
 const RainbowScreen = () => {
   return (
     <Container>
@@ -11,7 +14,7 @@ const RainbowScreen = () => {
           <Text>DIV container</Text>
         </View>
       </RainbowContainer>
-      <BaseButton>
+      <BaseButton onPress={getRainbowColors}>
         <Text>Generate Rainbow</Text>
       </BaseButton>
     </Container>
