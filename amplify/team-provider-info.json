@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-rainbox-dev-165749-authRole",
+            "UnauthRoleArn": "arn:aws:iam::637777752756:role/amplify-rainbox-dev-165749-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::637777752756:role/amplify-rainbox-dev-165749-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-rainbox-dev-165749-deployment",
+            "UnauthRoleName": "amplify-rainbox-dev-165749-unauthRole",
+            "StackName": "amplify-rainbox-dev-165749",
+            "StackId": "arn:aws:cloudformation:eu-west-1:637777752756:stack/amplify-rainbox-dev-165749/9c01d4f0-ead9-11ea-b6b2-06c001d97fde",
+            "AmplifyAppId": "d3af432ydhm5wu"
+        }
+    }
+}
