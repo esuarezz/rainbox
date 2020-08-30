@@ -1,0 +1,10 @@
+{
+	"function": {
+		"getRainbowColors": {
+			"build": true,
+			"providerPlugin": "awscloudformation",
+			"service": "Lambda",
+			"dependsOn": []
+		}
+	}
+}
