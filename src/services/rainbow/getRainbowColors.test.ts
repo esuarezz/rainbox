@@ -1,12 +1,13 @@
-describe('Get Colors from lambda ', () => {
-    test('Get the 5 rainbow colors from getRainbowColors', () => {
+import {getRainbowColors} from './getRainbowColors'
 
-       
-     /* expect(fizzbuzzService(2, 3)).toEqual({
-        countWords: { buzz: 0, fizz: 0, fizzbuzz: 0, integer: 1, lucky: 1 },
-        fizzbuzzList: [2, 'lucky']
-      })
-    })*/
-    
-  })
+describe('Get Colors from lambda ', () => {
+    test('returns array', () => {
+      expect(Array.isArray(getRainbowColors)).toBe(true);
+    })
+    test('lenght is more than 0', () => {
+      expect((getRainbowColors).length).toBeGreaterThan(5);
+    })
+  
+
+})
   

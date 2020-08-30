@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+     "configurations": [
+      {
+        "name": "Attach to packager",
+        "cwd": "${workspaceRoot}",
+        "type": "reactnative",
+        "request": "attach",
+        "port": "19001", // change this with your port
+
+        "sourceMaps": true,
+    },
+  
+       {
+         "type": "node",
+         "request": "launch",
+         "name": "Launch getRainbowColors",
+         "program": "/usr/local/bin/amplify",
+         "args": [
+           "function",
+           "invoke",
+           "getRainbowColors"
+         ],
+         "console": "integratedTerminal" 
+       }
+     ]
+   }
