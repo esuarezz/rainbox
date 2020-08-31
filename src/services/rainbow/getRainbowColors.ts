@@ -4,9 +4,7 @@ export const getRainbowColors = async() => {
   const route = awsConfig.aws_cloud_logic_custom[0].endpoint + '/colors'
 
   let response = await fetch(route);
-
-  let resposeParsed = await response.json()
-  return resposeParsed;
+  return await response.json();
 
 }
 
