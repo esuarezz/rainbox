@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/colors",
+            "lambdaFunction": "getRainbowColors",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "colors",
+    "apiName": "colors",
+    "functionArns": [
+        {
+            "lambdaFunction": "getRainbowColors"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-rainbox-dev-165749-authRole",
+        "unAuthRoleName": "amplify-rainbox-dev-165749-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getRainbowColors",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
