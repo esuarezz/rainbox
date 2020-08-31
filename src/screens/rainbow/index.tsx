@@ -7,20 +7,19 @@ import {getRainbowColors} from '../../services/rainbow/getRainbowColors'
 
 
 const RainbowScreen = () => {
-  const [rainbowColors, setRainbowColors] = useState<string[]>([1])
+  const [rainbowColors, setRainbowColors] = useState<string[]>([])
 
   const handleRainbowColors = async() => {
     const colors = await getRainbowColors();
     setRainbowColors(colors)
   }
 
-  console.log("rainbowColorss",rainbowColors)
   return (
     <Container>
       <RainbowContainer>
-          {rainbowColors && rainbowColors.map(color => {
+          {rainbowColors && rainbowColors.map((color,key) => {
             return (
-              <RainbowLine color={color}>
+              <RainbowLine key={key} color={color}>
               </RainbowLine>
             )
           })}
