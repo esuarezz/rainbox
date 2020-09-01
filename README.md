@@ -48,7 +48,7 @@ Android studio -> To use the Android simulator
 
 ## Architecture
 
-![Architecture Image](https://ibb.co/rGVnwGY)
+![Architecture Image](<https://ibb.co/rGVnwGY>)
 
 
 MIT © [Elio]()
