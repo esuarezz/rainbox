@@ -14,6 +14,8 @@ https://master.d2g2xns4gnscbk.amplifyapp.com/
 
 Mobile version:
 Loom video: https://www.loom.com/share/ecee52d537054b18aa3d5a999fb0a96e
+## Test in Devices
+
 Test in Android device: you can go to https://expo.io/@esuarez/rainbox on your laptop and scan the QR code or do the next step(Expo app)
 Test in Ios: you need to download the app "Expo" on your device and open https://expo.io/@esuarez/rainbox,then click on "Open project using Expo". 
 
@@ -53,7 +55,7 @@ After pressing the button, a service is dispatch to call apigateway - xxxx/color
 This is not an authenticated app so Cognito/Iam.... are not on the scope
 
 S3 is being used after the deployments to host the webapp app(used to check the solution fast without test on devices)
-![Architecture design](https://ibb.co/rGVnwGY)
+![Architecture design](https://imagizer.imageshack.com/img922/4792/twn0IS.png)
 
 
 MIT © [Elio]()
