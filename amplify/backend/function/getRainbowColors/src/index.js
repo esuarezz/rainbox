@@ -1,7 +1,7 @@
 exports.handler = async (event) => {
     const response = {
         statusCode: 200,
-        body: createPaletteRainbowColors(),
+        body: JSON.stringify(createPaletteRainbowColors()),
     };
     return response;
 };

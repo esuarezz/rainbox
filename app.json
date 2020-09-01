@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "React native app \nAWS api gateway + lambda\nStyled components\nTypesscript\nJest ",
+    "githubUrl": "https://github.com/esuarezz/rainbox"
   }
 }
