@@ -28,7 +28,7 @@ React native, supported by styled-components, and for the backend I decided to u
 
 To test the app I decided to use Jest.
 
-In mobile we cant implement hover effect so I decided to implement it after pressinng and then removing if after 1 second.
+In mobile we cant implement hover effect so I decided to implement it after the button was pressed and removed  after 1 second.
 
 To manage the palette of colors I fill an array appending hexadecimals randomly generated on a lambda function dispatched after call Api Gateway. I assume always we are returning back. I could send the number by parameter and if the number is not send I could return by default 5.
 
