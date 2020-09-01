@@ -46,8 +46,14 @@ Android studio -> To use the Android simulator
 6) Test: npm run test, the service we are using to call apigateway being mocked 
 
 ## Architecture
+This app is using a serverless architecture approach.
 
-![picture](<https://ibb.co/rGVnwGY>)
+After pressing the button, a service is dispatch to call apigateway - xxxx/colors - this is fetching automatically the function we deployed in lambda to generate the random colors and then getting back to lambda and returning to the device that is rendering the results.
+
+This is not an authenticated app so Cognito/Iam.... are not on the scope
+
+S3 is being used after the deployments to host the webapp app(used to check the solution fast without test on devices)
+![Architecture design](https://ibb.co/rGVnwGY)
 
 
 MIT © [Elio]()
