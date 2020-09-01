@@ -3,6 +3,8 @@ frontend:
   phases:
     preBuild:
       commands:
+        - '# Execute Amplify CLI with the helper script'
+        - amplifyPush --simple
         - npm install --quiet --global expo-cli
         - >
           if [ -f yarn.lock ]; then
