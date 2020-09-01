@@ -15,8 +15,7 @@ https://master.d2g2xns4gnscbk.amplifyapp.com/
 Mobile version:
 Loom video: https://www.loom.com/share/ecee52d537054b18aa3d5a999fb0a96e
 Test in Android device: you can go to https://expo.io/@esuarez/rainbox on your laptop and scan the QR code or do the next step(Expo app)
-Test in Ios: you need to download the app "Expo" on your device and open https://expo.io/@esuarez/rainbox, 
-then click on "Open project using Expo". 
+Test in Ios: you need to download the app "Expo" on your device and open https://expo.io/@esuarez/rainbox,then click on "Open project using Expo". 
 
 
 ## Design Process
@@ -33,7 +32,7 @@ To manage the palette of colors I fill an array appending hexadecimals randomly 
 
 
 ## Steps to build and run your application in development
-### Requisites: node.js and npm.
+Requisites: node.js and npm.
 We need to be sure we have installed aws cli ,amplify cli and expo-cli in our machine and aws profile credentials(https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) 
 Xcode -> To use the IOS simulator
 Android studio -> To use the Android simulator
@@ -48,7 +47,7 @@ Android studio -> To use the Android simulator
 
 ## Architecture
 
-![Architecture Image](<https://ibb.co/rGVnwGY>)
+![picture](<https://ibb.co/rGVnwGY>)
 
 
 MIT © [Elio]()
