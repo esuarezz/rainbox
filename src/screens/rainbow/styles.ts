@@ -33,9 +33,11 @@ export const BaseButton = styled(RectButton)`
   width: 300px;
   display:flex;
 `
-export const RainbowLine = styled.View<Props>`
+export const RainbowLine = styled(RectButton)<Props>`
   width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
   background-color: ${({ color }) => color};
-  display: flex;
   flex: 1;
 `
